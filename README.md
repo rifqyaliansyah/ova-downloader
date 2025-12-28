@@ -1,9 +1,9 @@
 ## Downloader Status
 
-| Platform   | Status        |
-|------------|---------------|
-| YouTube    | Active        |
-| TikTok     | Active()      |
-| Instagram  | Active        |
-
+| Platform   | Status        | Tested        |
+|------------|---------------|---------------|
+| YouTube    | Active        | Video         |
+| TikTok     | Active()      | Video         |
+| Instagram  | Active        | Video         |
+| Facebook   | Active        | Video         |
 *TikTok active but have a bug

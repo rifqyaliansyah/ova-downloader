@@ -24,7 +24,8 @@ app.get('/', (req, res) => {
     endpoints: {
       instagram: 'POST /api/instagram/download',
       tiktok: 'POST /api/tiktok/download',
-      youtube: 'POST /api/youtube/download'
+      youtube: 'POST /api/youtube/download',
+      facebook: 'POST /api/facebook/download'
     },
     documentation: 'https://github.com/rifqyaliansyah/ova-downloader'
   });
