@@ -40,7 +40,6 @@ class InstagramService {
             return {
                 url: item.url || null,
                 thumbnail: item.thumbnail || null,
-                title: item.title || null,
                 // Tambahkan field lain yang kamu mau di sini
             };
         }).filter(item => item.url); // Hapus item yang ga punya URL

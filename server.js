@@ -22,7 +22,9 @@ app.get('/', (req, res) => {
     message: 'Video Downloader API',
     version: '1.0.0',
     endpoints: {
-      instagram: 'POST /api/instagram/download'
+      instagram: 'POST /api/instagram/download',
+      tiktok: 'POST /api/tiktok/download',
+      youtube: 'POST /api/youtube/download'
     },
     documentation: 'https://github.com/rifqyaliansyah/ova-downloader'
   });
@@ -42,7 +44,6 @@ const PORT = config.port;
 app.listen(PORT, () => {
   console.log('='.repeat(50));
   console.log(`Server running on port ${PORT}`);
-  console.log(`URL: http://localhost:${PORT}`);
   console.log(`Environment: ${config.env}`);
   console.log('='.repeat(50));
 });
