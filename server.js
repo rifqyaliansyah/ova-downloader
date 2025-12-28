@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
     endpoints: {
       instagram: 'POST /api/instagram/download'
     },
-    documentation: 'https://github.com/yourusername/video-downloader-api'
+    documentation: 'https://github.com/rifqyaliansyah/ova-downloader'
   });
 });
 
